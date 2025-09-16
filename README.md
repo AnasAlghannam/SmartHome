@@ -7,15 +7,15 @@ An integrated smart home system built on Arduino Uno that combines RFID access c
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-Arduino%20Framework-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-## ✨ Features
+## Features
 
-- **🔐 RFID Door Access:** Secure door locking mechanism activated by authorized RFID tags.
-- **🚗 Automatic Garage Control:** Ultrasonic sensor detects vehicles and automatically operates the garage door.
-- **💡 Smart Lighting:** LDR sensor triggers LED lights based on ambient light levels.
-- **🌡️ Climate Control:** DHT11 sensor monitors temperature and controls a cooling fan.
-- **🖥️ MATLAB GUI:** Desktop interface for real-time sensor data monitoring and remote system control.
+- ** RFID Door Access:** Secure door locking mechanism activated by authorized RFID tags.
+- ** Automatic Garage Control:** Ultrasonic sensor detects vehicles and automatically operates the garage door.
+- ** Smart Lighting:** LDR sensor triggers LED lights based on ambient light levels.
+- ** Climate Control:** DHT11 sensor monitors temperature and controls a cooling fan.
+- ** MATLAB GUI:** Desktop interface for real-time sensor data monitoring and remote system control.
 
-## 🛠️ Hardware Components
+## Hardware Components
 
 | Component | Quantity |
 | :--- | :--- |
@@ -45,9 +45,9 @@ An integrated smart home system built on Arduino Uno that combines RFID access c
 | LED | 10 |
 | Fan | 7 |
 
-## 📁 Project Structure
+## Project Structure
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 1.  **Hardware Assembly:**
     *   Connect all components according to the pinout table above.
@@ -65,7 +65,7 @@ An integrated smart home system built on Arduino Uno that combines RFID access c
     *   Open and run `Smart_Home_GUI.m`.
     *   Ensure the correct COM port is selected in the GUI for Arduino communication.
 
-## 🚀 Usage
+## Usage
 
 1.  **Power on** the Arduino system.
 2.  **Run the MATLAB GUI** application.
@@ -80,7 +80,7 @@ An integrated smart home system built on Arduino Uno that combines RFID access c
     *   `GARAGE_OPEN` / `GARAGE_CLOSE`
     *   `DOOR_OPEN` / `DOOR_CLOSE`
 
-## 📊 Serial Communication Protocol
+## Serial Communication Protocol
 
 The Arduino communicates with MATLAB using a simple protocol:
 
@@ -89,22 +89,4 @@ The Arduino communicates with MATLAB using a simple protocol:
 - `L[value]` : LDR state (0/1 for Dark/Bright)
 - `G[UID]`   : Scanned RFID Tag UID (e.g., `Gaa bb cc dd`)
 
-## 🔮 Future Enhancements
-
-- [ ] Add a real-time clock for scheduled operations
-- [ ] Implement a web dashboard using Node.js
-- [ ] Add a backup battery power supply
-- [ ] Integrate a camera module for visual verification
-- [ ] Add IoT cloud connectivity for remote access
-
-## 👨‍💻 Developer
-
 **Anas Alghannam** - [GitHub Profile](https://github.com/AnasAlghannam)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**⭐ If you find this project useful, please give it a star on GitHub!**
