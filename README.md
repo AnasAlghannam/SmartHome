@@ -30,7 +30,7 @@ An integrated smart home system built on Arduino Uno that combines RFID access c
 | Breadboard | 1 |
 | Jumper Wires | ~20 |
 
-## 📋 Arduino Pinout
+## Arduino Pinout
 
 | Component | Arduino Pin |
 | :--- | :--- |
